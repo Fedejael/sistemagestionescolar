@@ -34,3 +34,5 @@ C:\Users\CantoFedericoJ\source\repos\OnlineSchoolTuto\obj\Debug\OnlineSchoolTuto
 C:\Users\CantoFedericoJ\source\repos\OnlineSchoolTuto\obj\Debug\OnlineSchoolTuto.csproj.CopyComplete
 C:\Users\CantoFedericoJ\source\repos\OnlineSchoolTuto\obj\Debug\OnlineSchoolTuto.dll
 C:\Users\CantoFedericoJ\source\repos\OnlineSchoolTuto\obj\Debug\OnlineSchoolTuto.pdb
+C:\Users\CantoFedericoJ\source\repos\OnlineSchoolTuto\obj\Debug\OnlineSchoolTuto.Properties.Resources.resources
+C:\Users\CantoFedericoJ\source\repos\OnlineSchoolTuto\obj\Debug\OnlineSchoolTuto.csproj.GenerateResource.cache

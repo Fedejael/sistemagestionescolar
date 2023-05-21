@@ -18,44 +18,63 @@
     <div class="container-fluid">
         <div class="row" style="height:695px;">
             <div class="col-md-2" style="background-color:crimson;">
-                <div class="row">
+                <div class="row mb-5">
                     <div class="col-md-3">
                         <img src="../../Assets/Images/department.png"/>
                     </div>
                     <div class="col-md-6 pt-3">
-                        <Label class="text-white h5">Alumno</Label>
+                        <Label class="text-white h5 text-center">Escuela</Label>
                     </div>
                 </div>
-                <div class="row">
+                <div class="mb-5 mt-5">
+
+                </div>
+                <div class="row mb-2 mt-5">
                     <div class="col-md-3">
                         <img src="../../Assets/Images/department.png"/>
                     </div>
                     <div class="col-md-6 pt-3">
-                        <Label class="text-white h5">Alumno</Label>
+                        <Label class="text-white h5">Panel</Label>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mb-2">
                     <div class="col-md-3">
-                        <img src="../../Assets/Images/department.png"/>
+                        <img src="../../Assets/Images/presentation.png"/>
                     </div>
                     <div class="col-md-6 pt-3">
-                        <Label class="text-white h5">Alumno</Label>
+                        <Label class="text-white h5">Maestros</Label>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mb-2">
                     <div class="col-md-3">
-                        <img src="../../Assets/Images/department.png"/>
+                        <img src="../../Assets/Images/male (1).png"/>
                     </div>
                     <div class="col-md-6 pt-3">
-                        <Label class="text-white h5">Alumno</Label>
+                        <Label class="text-white h5">Alumnos</Label>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mb-2">
+                    <div class="col-md-3">
+                        <img src="../../Assets/Images/report-card.png"/>
+                    </div>
+                    <div class="col-md-6 pt-3">
+                        <Label class="text-white h5">Marcas</Label>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-md-3">
+                        <img src="../../Assets/Images/timetable.png"/>
+                    </div>
+                    <div class="col-md-6 pt-3">
+                        <Label class="text-white h5">Horarios</Label>
+                    </div>
+                </div>
+                <div class="row mb-2">
                     <div class="col-md-3">
                         <img src="../../Assets/Images/department.png"/>
                     </div>
                     <div class="col-md-6 pt-3">
-                        <Label class="text-white h5">Alumno</Label>
+                        <Label class="text-white h5">Departamentos</Label>
                     </div>
                 </div>
             </div>

@@ -69,6 +69,11 @@
   <ItemGroup>
     <Content Include="Assets\Images\Business-Department-icon.png" />
     <Content Include="Assets\Images\department.png" />
+    <Content Include="Assets\Images\male %281%29.png" />
+    <Content Include="Assets\Images\male.png" />
+    <Content Include="Assets\Images\presentation.png" />
+    <Content Include="Assets\Images\report-card.png" />
+    <Content Include="Assets\Images\timetable.png" />
     <Content Include="Assets\Lib\css\bootstrap-grid.css" />
     <Content Include="Assets\Lib\css\bootstrap-grid.css.map" />
     <Content Include="Assets\Lib\css\bootstrap-grid.min.css" />
@@ -116,6 +121,11 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Views\Admin\AdminMaster.Master.cs">
       <DependentUpon>AdminMaster.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -151,6 +161,12 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Students\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
