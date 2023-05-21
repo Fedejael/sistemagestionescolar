@@ -8,30 +8,68 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <link href="../../Assets/Lib/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        *{
+            font-family:Poppins;
+        }
+    </style>
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-2" style="background-color:crimson">
+        <div class="row" style="height:695px;">
+            <div class="col-md-2" style="background-color:crimson;">
                 <div class="row">
-                    <div class="col-md-2">
-                        <img src=""/> <%--Me falta la imagen--%> 
+                    <div class="col-md-3">
+                        <img src="../../Assets/Images/department.png"/>
                     </div>
-                    <div class="col-md-6">
-                        <Label></Label>
+                    <div class="col-md-6 pt-3">
+                        <Label class="text-white h5">Alumno</Label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="../../Assets/Images/department.png"/>
+                    </div>
+                    <div class="col-md-6 pt-3">
+                        <Label class="text-white h5">Alumno</Label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="../../Assets/Images/department.png"/>
+                    </div>
+                    <div class="col-md-6 pt-3">
+                        <Label class="text-white h5">Alumno</Label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="../../Assets/Images/department.png"/>
+                    </div>
+                    <div class="col-md-6 pt-3">
+                        <Label class="text-white h5">Alumno</Label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="../../Assets/Images/department.png"/>
+                    </div>
+                    <div class="col-md-6 pt-3">
+                        <Label class="text-white h5">Alumno</Label>
                     </div>
                 </div>
             </div>
             <div class="col-md-10">
-
-            </div>
-        </div>
-    </div>
-    <form id="form1" runat="server">
+                 <form id="form1" runat="server">
         <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <asp:ContentPlaceHolder ID="MyContent" runat="server">
+
             </asp:ContentPlaceHolder>
         </div>
     </form>
+            </div>
+        </div>
+    </div>
+   
 </body>
 </html>
