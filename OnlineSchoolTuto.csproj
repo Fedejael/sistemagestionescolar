@@ -73,7 +73,10 @@
     <Content Include="Assets\Images\male %281%29.png" />
     <Content Include="Assets\Images\male.png" />
     <Content Include="Assets\Images\presentation.png" />
+    <Content Include="Assets\Images\presentationddasd.png" />
     <Content Include="Assets\Images\report-card.png" />
+    <Content Include="Assets\Images\teacher %281%29.png" />
+    <Content Include="Assets\Images\teacher.png" />
     <Content Include="Assets\Images\timetable.png" />
     <Content Include="Assets\Images\turn-off.png" />
     <Content Include="Assets\Lib\css\bootstrap-grid.css" />
@@ -116,6 +119,7 @@
     <Content Include="Assets\Lib\js\bootstrap.min.js" />
     <Content Include="Global.asax" />
     <Content Include="Views\Admin\Students.aspx" />
+    <Content Include="Views\Admin\Teachers.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -141,6 +145,13 @@
     </Compile>
     <Compile Include="Views\Admin\Students.aspx.designer.cs">
       <DependentUpon>Students.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Teachers.aspx.cs">
+      <DependentUpon>Teachers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Teachers.aspx.designer.cs">
+      <DependentUpon>Teachers.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -1,10 +1,10 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Admin/AdminMaster.Master" AutoEventWireup="true" CodeBehind="Students.aspx.cs" Inherits="OnlineSchoolTuto.Views.Admin.Students" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Admin/AdminMaster.Master" AutoEventWireup="true" CodeBehind="Teachers.aspx.cs" Inherits="OnlineSchoolTuto.Views.Admin.Teachers" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MyContent" runat="server">
-    <div class="row">
+        <div class="row">
         <div class="col bg-warning">
-            <h6 class="text-center">Administrar Estudiantes</h6>
+            <h6 class="text-center">Administrar Maestros</h6>
         </div>
     </div>
     <div class="row">
@@ -15,6 +15,7 @@
                     <img src="../../Assets/Images/presentationddasd.png" />
                 </div>
                 <div class="col"></div>
+
             </div>
             <div class="row mt-5">
                 <div class="col">
@@ -23,26 +24,19 @@
                 <input type="text" class="form-control"/>
             </div>
                 </div>
-                <div class="col">
-                    <div class="mb-2"> 
-                <label>Email</label>
-                <input type="email" class="form-control"/>
+
+                
             </div>
-                </div>
-            </div>
+
             <div class="row mt-2">
                 <div class="col">
                     <div class="mb-2"> 
-                <label>Telefono</label>
+                <label>Email</label>
                 <input type="text" class="form-control"/>
             </div>
                 </div>
-                <div class="col">
-                    <div class="mb-2"> 
-                <label>Direccion</label>
-                <input type="email" class="form-control"/>
-            </div>
-                </div>
+
+               
             </div>
             <div class="row mt-2">
                 <div class="col">
@@ -51,44 +45,28 @@
                 <input type="date" class="form-control"/>
             </div>
                 </div>
-                <div class="col">
-                    <div class="mb-2"> 
-                <label>Genero</label> <br />
-                <asp:DropDownList runat="server" Class="form-control">
-                    <asp:ListItem>Masculino</asp:ListItem>
-                    <asp:ListItem>Femenino</asp:ListItem>
-                    <asp:ListItem>No Binario</asp:ListItem>
-                </asp:DropDownList>
-            </div>
-                </div>
-            </div>
+              
+                </div>                
+            
             <div class="row mt-2">
                 <div class="col">
                     <div class="mb-2"> 
-                <label>Contraseña</label>
+                <label>Contraseña de salarios maestros</label>
                 <input type="text" class="form-control"/>
             </div>
                 </div>
-                <div class="col">
-                    <div class="mb-2"> 
-                <label>Departamento</label> <br />
-                <asp:DropDownList runat="server" Class="form-control">              
-                </asp:DropDownList>
-            </div>
-                </div>
-            </div>
+
+                </div>            
            <div class="row mt-2">
                 <div class="col">
                     <div class="mb-2"> 
-                <label>Maestro</label><br />
-                <asp:DropDownList runat="server" Class="form-control">
-               
-                </asp:DropDownList>
+                <label>Contraseña</label><br />     
+                <input type="text" class="form-control"/>    
             </div>
                 </div>
-                
-                    
-                </div>     
+                                    
+                </div>  
+    
             <div class="row mt-5">
                 <div class="col d-grid">
                     <asp:Button Text="Edit" runat="server" Class="btn btn-warning btn-block" />
@@ -104,7 +82,7 @@
 
         <div class="col-7">
             <div class="row">
-                <div class="col"><h5 class="text-center text-danger">Lista de estudiantes</h5></div>
+                <div class="col"><h5 class="text-center text-danger">Lista de maestros</h5></div>
             </div>
             <asp:gridview runat="server" class="table"></asp:gridview>
         </div>
