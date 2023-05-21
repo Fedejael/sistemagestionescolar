@@ -31,10 +31,10 @@
                 </div>
                 <div class="row mb-2 mt-5">
                     <div class="col-md-3">
-                        <img src="../../Assets/Images/department.png"/>
+                        <img src="../../Assets/Images/grafico.png"/>
                     </div>
                     <div class="col-md-6 pt-3">
-                        <Label class="text-white h5">Panel</Label>
+                        <Label class="text-white h6">Panel</Label>
                     </div>
                 </div>
                 <div class="row mb-2">
@@ -42,7 +42,7 @@
                         <img src="../../Assets/Images/presentation.png"/>
                     </div>
                     <div class="col-md-6 pt-3">
-                        <Label class="text-white h5">Maestros</Label>
+                        <Label class="text-white h6">Maestros</Label>
                     </div>
                 </div>
                 <div class="row mb-2">
@@ -50,7 +50,7 @@
                         <img src="../../Assets/Images/male (1).png"/>
                     </div>
                     <div class="col-md-6 pt-3">
-                        <Label class="text-white h5">Alumnos</Label>
+                        <Label class="text-white h6">Alumnos</Label>
                     </div>
                 </div>
                 <div class="row mb-2">
@@ -58,7 +58,7 @@
                         <img src="../../Assets/Images/report-card.png"/>
                     </div>
                     <div class="col-md-6 pt-3">
-                        <Label class="text-white h5">Marcas</Label>
+                        <Label class="text-white h6">Marcas</Label>
                     </div>
                 </div>
                 <div class="row mb-2">
@@ -66,15 +66,26 @@
                         <img src="../../Assets/Images/timetable.png"/>
                     </div>
                     <div class="col-md-6 pt-3">
-                        <Label class="text-white h5">Horarios</Label>
+                        <Label class="text-white h6">Horarios</Label>
                     </div>
                 </div>
-                <div class="row mb-2">
+                <div class="row mb-5">
                     <div class="col-md-3">
                         <img src="../../Assets/Images/department.png"/>
                     </div>
                     <div class="col-md-6 pt-3">
-                        <Label class="text-white h5">Departamentos</Label>
+                        <Label class="text-white h6">Departamentos</Label>
+                    </div>
+                </div>
+                <div class="mt-5" style="height:60px">
+                    
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-4">
+                        <img src="../../Assets/Images/turn-off.png"/>
+                    </div>
+                    <div class="col-md-6 pt-3">
+                        <Label class="text-white h6">Salir</Label>
                     </div>
                 </div>
             </div>

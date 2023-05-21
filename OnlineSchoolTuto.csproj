@@ -69,11 +69,13 @@
   <ItemGroup>
     <Content Include="Assets\Images\Business-Department-icon.png" />
     <Content Include="Assets\Images\department.png" />
+    <Content Include="Assets\Images\grafico.png" />
     <Content Include="Assets\Images\male %281%29.png" />
     <Content Include="Assets\Images\male.png" />
     <Content Include="Assets\Images\presentation.png" />
     <Content Include="Assets\Images\report-card.png" />
     <Content Include="Assets\Images\timetable.png" />
+    <Content Include="Assets\Images\turn-off.png" />
     <Content Include="Assets\Lib\css\bootstrap-grid.css" />
     <Content Include="Assets\Lib\css\bootstrap-grid.css.map" />
     <Content Include="Assets\Lib\css\bootstrap-grid.min.css" />
