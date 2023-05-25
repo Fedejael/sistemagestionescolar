@@ -82,7 +82,7 @@
 
         <div class="col-7">
             <div class="row">
-                <div class="col"><h5 class="text-center text-danger">Lista de maestros</h5></div>
+                <div class="col"><h5 class="text-center text-danger">Lista de marcas</h5></div>
             </div>
             <asp:gridview runat="server" class="table"></asp:gridview>
         </div>

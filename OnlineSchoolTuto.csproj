@@ -119,6 +119,7 @@
     <Content Include="Assets\Lib\js\bootstrap.min.js" />
     <Content Include="Global.asax" />
     <Content Include="Views\Admin\Marks.aspx" />
+    <Content Include="Views\Admin\Schedules.aspx" />
     <Content Include="Views\Admin\Students.aspx" />
     <Content Include="Views\Admin\Teachers.aspx" />
     <Content Include="Web.config" />
@@ -146,6 +147,13 @@
     </Compile>
     <Compile Include="Views\Admin\Marks.aspx.designer.cs">
       <DependentUpon>Marks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Schedules.aspx.cs">
+      <DependentUpon>Schedules.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Schedules.aspx.designer.cs">
+      <DependentUpon>Schedules.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Admin\Students.aspx.cs">
       <DependentUpon>Students.aspx</DependentUpon>
