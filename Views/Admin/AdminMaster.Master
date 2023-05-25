@@ -42,7 +42,7 @@
                         <img src="../../Assets/Images/presentation.png"/>
                     </div>
                     <div class="col-md-6 pt-3">
-                        <Label class="text-white h6">Maestros</Label>
+                       <a href="Teachers.aspx"><Label class="text-white h6">Maestros</Label></a>
                     </div>
                 </div>
                 <div class="row mb-2">
@@ -50,7 +50,7 @@
                         <img src="../../Assets/Images/male (1).png"/>
                     </div>
                     <div class="col-md-6 pt-3">
-                        <Label class="text-white h6">Alumnos</Label>
+                        <a href="Students.aspx"><Label class="text-white h6">Alumnos</Label></a>
                     </div>
                 </div>
                 <div class="row mb-2">
@@ -58,7 +58,7 @@
                         <img src="../../Assets/Images/report-card.png"/>
                     </div>
                     <div class="col-md-6 pt-3">
-                        <Label class="text-white h6">Marcas</Label>
+                        <a href="Marks.aspx"><Label class="text-white h6">Marcas</Label></a>
                     </div>
                 </div>
                 <div class="row mb-2">
@@ -66,7 +66,7 @@
                         <img src="../../Assets/Images/timetable.png"/>
                     </div>
                     <div class="col-md-6 pt-3">
-                        <Label class="text-white h6">Horarios</Label>
+                        <a href="Schedules.aspx"><Label class="text-white h6">Horarios</Label></a>
                     </div>
                 </div>
                 <div class="row mb-5">
@@ -74,7 +74,7 @@
                         <img src="../../Assets/Images/department.png"/>
                     </div>
                     <div class="col-md-6 pt-3">
-                        <Label class="text-white h6">Departamentos</Label>
+                        <a href="Departments.aspx"><Label class="text-white h6">Departamentos</Label></a>
                     </div>
                 </div>
                 <div class="mt-5" style="height:60px">
