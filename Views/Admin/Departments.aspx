@@ -39,14 +39,15 @@
             </div>
 
             <div class="row mt-1">
+                <label id="ErrMsg" runat="server" class="text-center text-danger"></label>
                 <div class="col d-grid">
-                    <asp:Button Text="Edit" runat="server" Class="btn btn-warning btn-block" />
+                    <asp:Button Text="Actualizar" runat="server" Id="EditBtn" Class="btn btn-warning btn-block" OnClick="EditBtn_Click" />
                 </div>
                 <div class="col d-grid">
-                    <asp:Button Text="Edit" runat="server" Class="btn btn-primary btn-block" />
+                    <asp:Button Text="Guardar" runat="server" Id="SaveBtn" Class="btn btn-primary btn-block" OnClick="SaveBtn_Click" />
                 </div>
                 <div class="col d-grid">
-                    <asp:Button Text="Edit" runat="server" Class="btn btn-danger btn-block" />
+                    <asp:Button Text="Eliminar" runat="server" Id="DeleteBtn" Class="btn btn-danger btn-block" OnClick="DeleteBtn_Click" />
                 </div>
             </div>
             
@@ -56,7 +57,7 @@
             <div class="row">
                 <div class="col"><h5 class="text-center text-danger">Lista de departamentos</h5></div>
             </div>
-            <asp:gridview runat="server" class="table"></asp:gridview>
+            <asp:gridview runat="server" ID="DepartmentsList" class="table" AutoGenerateSelectButton="True" OnSelectedIndexChanged="DepartmentsList_SelectedIndexChanged"></asp:gridview>
         </div>
     </div>
 </asp:Content>
