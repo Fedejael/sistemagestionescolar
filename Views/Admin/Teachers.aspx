@@ -21,7 +21,7 @@
                 <div class="col">
                     <div class="mb-2"> 
                 <label>Nombre y Apellido</label>
-                <input type="text" class="form-control"/>
+                <input type="text" runat="server" id="TNameTb" class="form-control"/>
             </div>
                 </div>
 
@@ -32,7 +32,7 @@
                 <div class="col">
                     <div class="mb-2"> 
                 <label>Email</label>
-                <input type="text" class="form-control"/>
+                <input type="text" runat="server" id="TEmailTb" class="form-control"/>
             </div>
                 </div>
 
@@ -42,7 +42,7 @@
                 <div class="col">
                     <div class="mb-2"> 
                 <label>Fecha de nacimiento</label>
-                <input type="date" class="form-control"/>
+                <input type="date" runat="server" id="DOBTb" class="form-control"/>
             </div>
                 </div>
               
@@ -52,7 +52,7 @@
                 <div class="col">
                     <div class="mb-2"> 
                 <label>Contraseña de salarios maestros</label>
-                <input type="text" class="form-control"/>
+                <input type="text" runat="server" id="SalaryTb" class="form-control"/>
             </div>
                 </div>
 
@@ -61,18 +61,19 @@
                 <div class="col">
                     <div class="mb-2"> 
                 <label>Contraseña</label><br />     
-                <input type="text" class="form-control"/>    
+                <input type="text" runat="server" id="PassTb" class="form-control"/>    
             </div>
                 </div>
                                     
                 </div>  
     
             <div class="row mt-5">
+                <label class="text-center text-danger" id="ErrMsg" runat="server"></label>
                 <div class="col d-grid">
                     <asp:Button Text="Edit" runat="server" Class="btn btn-warning btn-block" />
                 </div>
                   <div class="col d-grid">
-                    <asp:Button Text="Edit" runat="server" Class="btn btn-primary btn-block" />
+                    <asp:Button Text="Guardar" runat="server" Class="btn btn-primary btn-block" OnClick="Unnamed2_Click" />
                 </div>
                   <div class="col d-grid">
                     <asp:Button Text="Edit" runat="server" Class="btn btn-danger btn-block" />
@@ -84,7 +85,7 @@
             <div class="row">
                 <div class="col"><h5 class="text-center text-danger">Lista de maestros</h5></div>
             </div>
-            <asp:gridview runat="server" class="table"></asp:gridview>
+            <asp:gridview runat="server" ID="TeachersList" class="table"></asp:gridview>
         </div>
     </div>
 </asp:Content>
